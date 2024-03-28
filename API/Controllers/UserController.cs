@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
-    [Authorize]
+    
     public class UserController : BaseApiController
     {
         private readonly IUserService _userService;

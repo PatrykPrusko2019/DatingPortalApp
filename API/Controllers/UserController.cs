@@ -1,28 +1,32 @@
 using API.Data;
+using API.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
+    [Authorize]
     public class UserController : BaseApiController
     {
-        private readonly DataContext _context;
+        private readonly IUserService _userService;
 
-        public UserController(DataContext context)
+        public UserController(IUserService userService)
         {
-            _context = context;
+            _userService = userService;
         }
 
         [HttpGet]
         public async Task<IEnumerable<AppUser>> GetUsers(){
-            var users = await _context.Users.ToListAsync();
+            var users = await _userService.GetUsers();
 
             return users;
         }
 
+        
         [HttpGet("{id}")]
         public async Task<AppUser> GetUser([FromRoute] int id){
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
+            var user = await _userService.GetUserById(id);
 
             return user;
         }

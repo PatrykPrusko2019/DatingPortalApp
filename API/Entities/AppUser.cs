@@ -22,10 +22,4 @@ public class AppUser
     public string Conutry { get; set; }
     public List<Photo> Photos  { get; set; } = new List<Photo>();
 
-    public int GetAge()
-    {
-        return DateOfBirth.CalcuateAge();
-    }
-
-
 }

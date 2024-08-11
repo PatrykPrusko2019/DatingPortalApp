@@ -2180,11 +2180,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\MySheets\\ProgramsInCSharp\\GitHubProjects\\ProjectsAngular\\DatingPortalApp\\DatingPortalApp\\API\\API.csproj",
+      "projectUniqueName": "D:\\MySheets\\ProgramsInCSharp\\GitHubProjects\\ProjectsAngular\\DatingPortalApp\\DatingPortalApp\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "d:\\MySheets\\ProgramsInCSharp\\GitHubProjects\\ProjectsAngular\\DatingPortalApp\\DatingPortalApp\\API\\API.csproj",
+      "projectPath": "D:\\MySheets\\ProgramsInCSharp\\GitHubProjects\\ProjectsAngular\\DatingPortalApp\\DatingPortalApp\\API\\API.csproj",
       "packagesPath": "C:\\Users\\patry\\.nuget\\packages\\",
-      "outputPath": "d:\\MySheets\\ProgramsInCSharp\\GitHubProjects\\ProjectsAngular\\DatingPortalApp\\DatingPortalApp\\API\\obj\\",
+      "outputPath": "D:\\MySheets\\ProgramsInCSharp\\GitHubProjects\\ProjectsAngular\\DatingPortalApp\\DatingPortalApp\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2199,6 +2199,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

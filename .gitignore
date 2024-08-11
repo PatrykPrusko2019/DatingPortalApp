@@ -75,6 +75,7 @@ ScaffoldingReadMe.txt
 StyleCopReport.xml
 
 # Files built by Visual Studio
+*.API\obj
 *_i.c
 *_p.c
 *_h.h
@@ -483,3 +484,5 @@ $RECYCLE.BIN/
 # Vim temporary swap files
 *.swp
 API/appsettings.json
+API/obj/project.assets.json
+API/obj/API.csproj.nuget.dgspec.json

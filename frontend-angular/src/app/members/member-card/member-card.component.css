@@ -17,7 +17,7 @@
 }
 
 .member-icons {
-    position: absolute;
+    position: absolute(top);
     bottom: -30%;
     left: 0;
     right: 0;
@@ -29,10 +29,6 @@
 .card-img-wrapper:hover .member-icons {
     bottom: 0;
     opacity: 1;
-}
-
-.animate {
-    transition: all 0.3s;
 }
 
 .animate {

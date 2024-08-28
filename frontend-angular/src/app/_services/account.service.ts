@@ -11,7 +11,7 @@ export class AccountService {
   baseUrl = environment.apiUrl;
   private currentUserSource = new BehaviorSubject<User | null>(null);
   currentUser$ = this.currentUserSource.asObservable();
-
+  
   constructor(private http: HttpClient) { }
 
   login(model: any) {
@@ -40,6 +40,7 @@ export class AccountService {
   setCurrentUser(user: User){
     this.currentUserSource.next(user);
   }
+
 
   logout(){
     localStorage.removeItem('user');

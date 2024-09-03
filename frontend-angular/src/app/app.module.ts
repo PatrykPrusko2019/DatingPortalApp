@@ -1,8 +1,6 @@
-import { NgModule } from '@angular/core';
+// import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
-
-
 import { AppRoutingModule } from './app-routes';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -21,6 +19,7 @@ import { ServerErrorComponent } from './errors/server-error/server-error.compone
 import { MemberCardComponent } from './members/member-card/member-card.component';
 import { JwtInterceptor } from './_interceptors/jwt.interceptor';
 import { MemberEditComponent } from './members/member-edit/member-edit.component';
+import { NgModule } from '@angular/core';
 
 @NgModule({
   declarations: [
